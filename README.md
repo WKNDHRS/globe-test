@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# WKNDHRS Globe Package #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview ##
+This project is a package that can be added to any react web/mobile application. The package renders a 3D globe with animation arcs representing the sending to/from lat/lng data points. Data points are managed per client install.
 
-## Available Scripts
+## Install ##
+1. Add package to working project
+```
+yarn add @bebeau/globe
+```
+2. Import into project
+```
+import GlobeRender from '@bebeau/globe';
+```
+3. Use component
+```
+<GlobeRender
+  cleintID=""
+  theme=""
+  messages=""
+  currentUser=""
+  currentLocation=""
+  exit=""
+>
+```
+4. The globe package is using flexbox to fit the height of the parent element. Be sure to set the height of the parent element the globe package is used within.
 
-In the project directory, you can run:
+## Props ##
 
-### `npm start`
+Prop | Type | Description
+|---|---|---|
+clientID | string | The clientID is the ID used to pull data points from admin.
+theme | string | Defines theme styling, either `child` or `adult`.
+messages | object[] | Messages are passed in as an array of JSON objects. See below for data structure.
+currentUser | string | Current user's name.
+currentLocation | object | Current user's location. See below for data structure
+exit | function | Exit is the function fired upon exiting the globe view to handle navigation back to the previous app screen.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Messages Object ###
+```
+{
+ location: {
+    state: string,
+    countryCode: string
+  },
+  "message": string,
+  "sender": string
+}
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Current Location Object ###
+```
+{
+  title: string,
+  coordinates: {
+    lng: number,
+    lat: number,
+  },
+}
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Development ##
+1. Clone project repo
+```
+git clone git@github.com:WKNDHRS/globe-package.git
+```
+2. Use yarn to install project dependencies 
+```
+yarn install
+```
+3. Run preferred script
+```
+yarn android
+yarn ios
+yarn web:start
+```
