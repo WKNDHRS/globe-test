@@ -51,6 +51,7 @@ exit | function | Exit is the function fired upon exiting the globe view to hand
 ### Current Location Object ###
 ```
 {
+  id: string,
   title: string,
   coordinates: {
     lng: number,
