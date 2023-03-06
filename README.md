@@ -58,19 +58,3 @@ exit | function | Exit is the function fired upon exiting the globe view to hand
   },
 }
 ```
-
-## Development ##
-1. Clone project repo
-```
-git clone git@github.com:WKNDHRS/globe-package.git
-```
-2. Use yarn to install project dependencies 
-```
-yarn install
-```
-3. Run preferred script
-```
-yarn android
-yarn ios
-yarn web:start
-```
