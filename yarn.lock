@@ -1140,9 +1140,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bebeau/globe@file:../package/bebeau-globe-v0.0.2.tgz":
-  version "0.0.2"
-  resolved "file:../package/bebeau-globe-v0.0.2.tgz#e6195df6e534ec3d00d7acd0b777d98b2d0052bf"
+"@bebeau/globe@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@bebeau/globe/-/globe-1.1.2.tgz#adc6554d4a99d5bf72a8ccae96d6f3aaccf379b6"
+  integrity sha512-AqWa9CDS1Ie/jVQVKGw7THu5SmAXWITl8pNKXsF02ey5/ENNKk1JOIjkZl2pvcU55mIVgAfkRm7ddkDpDYXl3Q==
   dependencies:
     "@react-spring/native" "^9.6.0"
     "@react-spring/three" "^9.5.5"
