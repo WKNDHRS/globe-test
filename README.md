@@ -50,18 +50,18 @@ currentUser | string | Current user's name.
 currentLocation | object | Current user's location. See below for data structure
 exit | function | Exit is the function fired upon exiting the globe view to handle navigation back to the previous app screen.
 
-## Optional Props ##
-Prop | Type | Description
-|---|---|---|
-manualDataPoints | object[] | Used to pass in manual array of location objects to be used as data points. If this prop exists, it will overwrite the clientID prop data.
-messages | object[] | Messages are passed in as an array of JSON objects. See below for data structure.
-
 ### Themes ###
 The theme passed in determines the styling of the globe element. There are two theme options, `child` and `adult`.
 
 Child | Adult
 |---|---|
 ![Child Theme](https://init-public.s3.amazonaws.com/child.jpg) | ![Adult Theme](https://init-public.s3.amazonaws.com/adult.jpg)
+
+## Optional Props ##
+Prop | Type | Description
+|---|---|---|
+manualDataPoints | object[] | Used to pass in manual array of location objects to be used as data points. If this prop exists, it will overwrite the clientID prop data.
+messages | object[] | Messages are passed in as an array of JSON objects. See below for data structure.
 
 ## Data Structure ##
 

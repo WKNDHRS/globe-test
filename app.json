@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": ["./plugins/animatedWebPSupport"],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
