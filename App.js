@@ -33,7 +33,7 @@ const defaultProps = {
   clientId: '63bda1c87a9e114ce60a713e',
   // manualDataPoints: dataPoints,
   messages: messages,
-  theme: 'child',
+  theme: 'adult',
   type: 'send',
   currentUser: 'Corey',
   currentLocation: {

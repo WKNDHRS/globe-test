@@ -6,12 +6,12 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "react:web": "react-scripts start"
+    "build": "GENERATE_SOURCEMAP=false && react-scripts build",
+    "web": "GENERATE_SOURCEMAP=false && react-scripts start"
   },
   "dependencies": {
-    "@bebeau/globe": "file:/Users/kylebebeau/Documents/dev/node/WKNDHRS/globe/package/bebeau-globe-v1.0.4.tgz",
-    "@expo/webpack-config": "^18.0.4",
+    "@bebeau/globe": "1.1.9",
+    "babel-preset-react-app": "^10.0.1",
     "expo": "46.0.20",
     "react": "18.0.0",
     "react-dom": "18.0.0",

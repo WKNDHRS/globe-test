@@ -41,8 +41,8 @@ const defaultProps = {
     id: '0',
     title: 'Detroit',
     coordinates: {
-      lng: -83,
-      lat: 42,
+      lng: -83.045753,
+      lat: 42.331429,
     },
   },
   exit: () => {},
