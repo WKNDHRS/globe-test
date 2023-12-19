@@ -10,7 +10,7 @@
     "web": "GENERATE_SOURCEMAP=false && react-scripts start"
   },
   "dependencies": {
-    "@bebeau/globe": "1.1.9",
+    "@bebeau/globe": "1.2.0",
     "babel-preset-react-app": "^10.0.1",
     "expo": "46.0.20",
     "react": "18.0.0",
