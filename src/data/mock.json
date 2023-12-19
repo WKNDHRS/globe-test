@@ -1,0 +1,98 @@
+[
+    {
+        "id": "L01",
+        "title": "Brussels",
+        "coordinates": {
+            "lng": 4.3517103,
+            "lat": 50.8503396
+        }
+    },
+    {
+        "id": "L02",
+        "title": "Los Angeles",
+        "coordinates": {
+            "lng": -118.243685,
+            "lat": 34.052234
+        }
+    },
+    {
+        "id": "L03",
+        "title": "Iceland",
+        "coordinates": {
+            "lng": -18.078003,
+            "lat": 64.83113
+        }
+    },
+    {
+        "id": "L04",
+        "title": "Paris",
+        "coordinates": {
+            "lng": 2.352222,
+            "lat": 48.856614
+        }
+    },
+    {
+        "id": "L05",
+        "title": "Costa Rica",
+        "coordinates": {
+            "lng": -83.753428,
+            "lat": 9.748917
+        }
+    },
+    {
+        "id": "L06",
+        "title": "Melbourne",
+        "coordinates": {
+            "lng": -80.608109,
+            "lat": 28.083627
+        }
+    },
+    {
+        "id": "L07",
+        "title": "Santiago",
+        "coordinates": {
+            "lng": -70.641997,
+            "lat": -33.469120
+        }
+    },
+    {
+        "id": "L08",
+        "title": "Cairo",
+        "coordinates": {
+            "lng": 31.235712,
+            "lat": 30.044420
+        }
+    },
+    {
+        "id": "L09",
+        "title": "Abuja",
+        "coordinates": {
+            "lng": 7.483333,
+            "lat": 9.066667
+        }
+    },
+    {
+        "id": "L10",
+        "title": "Cape Town",
+        "coordinates": {
+            "lng": 18.424055,
+            "lat": -33.924869
+        }
+    },
+    {
+        "id": "L11",
+        "title": "Sydney",
+        "coordinates": {
+            "lng": 151.206990,
+            "lat": -33.867487
+        }
+    },
+    {
+        "id": "L12",
+        "title": "Tokyo",
+        "coordinates": {
+            "lng": 139.691711,
+            "lat": 35.689487
+        }
+    }
+]

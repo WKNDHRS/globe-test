@@ -1,7 +1,9 @@
 # WKNDHRS Globe Package #
 
 ## Overview ##
-This project is a package that can be added to any react web/mobile application. The package renders a 3D globe with animation arcs representing the sending to/from lat/lng data points. Data points are managed per client install.
+This project is a package that can be added to any react web/mobile application. The package renders a 3D globe with animation arcs representing the sending to/from lat/lng data points. Data points are managed per client install or manually passed as a prop to the component.
+
+View the [live demo](https://globetest.cltdev.com)
 
 ![Globe Render](https://init-public.s3.amazonaws.com/default.jpg)
 
